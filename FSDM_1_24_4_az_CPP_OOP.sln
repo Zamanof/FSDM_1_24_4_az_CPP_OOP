@@ -13,6 +13,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 10. Diamond Dead pr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 10. Polymorphism intro", "CPP OOP 10. Polymorphism intro\CPP OOP 10. Polymorphism intro.vcxproj", "{35E9E155-6C2B-4F41-92CC-B4808BF5056D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP OOP 11", "CPP OOP 11", "{8EB55A0B-FA53-4EBD-9F70-F70212545BBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 11. Pure virtual methods. Abstract classes", "CPP OOP 11. Pure virtual methods. Abstract classes\CPP OOP 11. Pure virtual methods. Abstract classes.vcxproj", "{E712E198-8B1B-437D-9027-3D0855990537}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 11. Pointer to function sorting example", "CPP OOP 11. Pointer to function sorting example\CPP OOP 11. Pointer to function sorting example.vcxproj", "{AE679005-EA28-438F-A0C8-BA59C748E61F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -53,6 +59,22 @@ Global
 		{35E9E155-6C2B-4F41-92CC-B4808BF5056D}.Release|x64.Build.0 = Release|x64
 		{35E9E155-6C2B-4F41-92CC-B4808BF5056D}.Release|x86.ActiveCfg = Release|Win32
 		{35E9E155-6C2B-4F41-92CC-B4808BF5056D}.Release|x86.Build.0 = Release|Win32
+		{E712E198-8B1B-437D-9027-3D0855990537}.Debug|x64.ActiveCfg = Debug|x64
+		{E712E198-8B1B-437D-9027-3D0855990537}.Debug|x64.Build.0 = Debug|x64
+		{E712E198-8B1B-437D-9027-3D0855990537}.Debug|x86.ActiveCfg = Debug|Win32
+		{E712E198-8B1B-437D-9027-3D0855990537}.Debug|x86.Build.0 = Debug|Win32
+		{E712E198-8B1B-437D-9027-3D0855990537}.Release|x64.ActiveCfg = Release|x64
+		{E712E198-8B1B-437D-9027-3D0855990537}.Release|x64.Build.0 = Release|x64
+		{E712E198-8B1B-437D-9027-3D0855990537}.Release|x86.ActiveCfg = Release|Win32
+		{E712E198-8B1B-437D-9027-3D0855990537}.Release|x86.Build.0 = Release|Win32
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Debug|x64.ActiveCfg = Debug|x64
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Debug|x64.Build.0 = Debug|x64
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Debug|x86.Build.0 = Debug|Win32
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Release|x64.ActiveCfg = Release|x64
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Release|x64.Build.0 = Release|x64
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Release|x86.ActiveCfg = Release|Win32
+		{AE679005-EA28-438F-A0C8-BA59C748E61F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +84,8 @@ Global
 		{62C52DBA-CE29-4718-A0CF-9969A8A6F886} = {88131475-82BF-4AD1-B449-E298F3DF263D}
 		{D09E1992-4F15-4711-844C-A4E17FE32C1E} = {88131475-82BF-4AD1-B449-E298F3DF263D}
 		{35E9E155-6C2B-4F41-92CC-B4808BF5056D} = {88131475-82BF-4AD1-B449-E298F3DF263D}
+		{E712E198-8B1B-437D-9027-3D0855990537} = {8EB55A0B-FA53-4EBD-9F70-F70212545BBB}
+		{AE679005-EA28-438F-A0C8-BA59C748E61F} = {8EB55A0B-FA53-4EBD-9F70-F70212545BBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F534C11-13BC-45AA-AFB7-BF1D8E2656B7}
