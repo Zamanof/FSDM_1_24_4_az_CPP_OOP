@@ -46,6 +46,9 @@ public:
 	void Sound() override {
 		cout << name << " -> haw-haw" << endl;
 	}
+	void Groom() {
+
+	}
 };
 
 class Cat : public Animal
@@ -86,6 +89,7 @@ void info(Animal* animal)
 {
 	cout << "This is " << animal->name << endl;
 	animal->Sound();
+	
 }
 void info(Animal& animal)
 {
@@ -104,7 +108,7 @@ int main() {
 	Dog dog;
 	dog.name = "Alabash";
 	/*dog.Sound();*/
-	/*info(dog);*/
+	info(dog);
 
 	Cat cat;
 	cat.name = "Garfield";

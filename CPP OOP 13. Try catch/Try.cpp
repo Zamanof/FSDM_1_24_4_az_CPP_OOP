@@ -141,5 +141,10 @@ int main()
 	//}
 #pragma endregion
 
-	
+	// namespace
+	// Cast 
+	// const cast, 
+	// dynamic cast, 
+	// reinterpreted cast, 
+	// static cast
 }
