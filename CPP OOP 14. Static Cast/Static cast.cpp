@@ -33,7 +33,7 @@ int main() {
 
 	int* ptrA = &numb1;
 	double* ptrDbl = (double*)ptrA;
-	/*double ptrDouble = static_cast<double*>(ptrA);*/
+	double* ptrDouble = static_cast<double*>(ptrA);
 	cout << *ptrDbl << endl;
 
 #pragma endregion
