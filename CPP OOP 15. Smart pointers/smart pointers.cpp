@@ -1,5 +1,7 @@
 #include<iostream>
 
+#include<memory>
+
 using namespace std;
 
 template<class T>
@@ -54,6 +56,17 @@ void Bar()
 	/*test1->testFoo();*/
 }
 
+
+auto_ptr<Test> autoPtrFunc() {
+	auto_ptr<Test> tmp(new Test());
+	return tmp;
+}
+
+unique_ptr<Test> uniquePtrFunc() {
+	unique_ptr<Test> tmp(new Test());
+	return tmp;
+}
+
 int main()
 {
 	// smart pointers
@@ -64,9 +77,18 @@ int main()
 
 	/*Test test;*/
 
-	Bar();
+	//Bar();
 
 	/*auto_ptr<Test> test1(new Test);*/
 
+	/*auto_ptr<Test> test(autoPtrFunc());
+	test->testFoo();*/
 	
+	/*auto_ptr<int> ptr1(new int(5));
+
+	cout << *ptr1 << endl;*/
+	
+
+	/*unique_ptr<Test> testUnique(uniquePtrFunc());
+	testUnique->testFoo();*/
 }
