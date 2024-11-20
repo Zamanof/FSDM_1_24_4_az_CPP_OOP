@@ -58,11 +58,6 @@ void Human::SaveToFile() {
 	file.write(surname.c_str(), surnameLength);
 	file.close();
 
-
-
-
-	file.close();
-
 }
 
 void Human::ShowFromFile() {
@@ -179,7 +174,5 @@ int main() {
 	human1.Show();
 	human1.SaveToFile();*/
 
-	Human::ShowFromFile();
-
-	
+	Human::ShowFromFile();	
 }
