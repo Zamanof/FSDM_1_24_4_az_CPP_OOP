@@ -95,6 +95,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 19. Containers mult
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 19. Algorithms", "CPP OOP 19. Algorithms\CPP OOP 19. Algorithms.vcxproj", "{B9DE15BD-4EF4-4FB5-8BB0-70C6EA79B81F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP OOP 20", "CPP OOP 20", "{7F3DB61E-1C7C-4570-948E-A9D1B303ADB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 20. Algorithms and lambda expressions", "CPP OOP 20. Algorithms and lambda expressions\CPP OOP 20. Algorithms and lambda expressions.vcxproj", "{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +395,14 @@ Global
 		{B9DE15BD-4EF4-4FB5-8BB0-70C6EA79B81F}.Release|x64.Build.0 = Release|x64
 		{B9DE15BD-4EF4-4FB5-8BB0-70C6EA79B81F}.Release|x86.ActiveCfg = Release|Win32
 		{B9DE15BD-4EF4-4FB5-8BB0-70C6EA79B81F}.Release|x86.Build.0 = Release|Win32
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Debug|x64.ActiveCfg = Debug|x64
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Debug|x64.Build.0 = Debug|x64
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Debug|x86.ActiveCfg = Debug|Win32
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Debug|x86.Build.0 = Debug|Win32
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Release|x64.ActiveCfg = Release|x64
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Release|x64.Build.0 = Release|x64
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Release|x86.ActiveCfg = Release|Win32
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -432,6 +444,7 @@ Global
 		{B6A94A77-C311-468C-B436-8C1F520240AE} = {02D6B83F-D6D6-45B0-B0D7-35583D6414B6}
 		{D1935528-448E-435B-A14A-9BACF27E11E3} = {02D6B83F-D6D6-45B0-B0D7-35583D6414B6}
 		{B9DE15BD-4EF4-4FB5-8BB0-70C6EA79B81F} = {02D6B83F-D6D6-45B0-B0D7-35583D6414B6}
+		{E633ED3B-1BEE-453A-8EA1-B35BE42A064D} = {7F3DB61E-1C7C-4570-948E-A9D1B303ADB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F534C11-13BC-45AA-AFB7-BF1D8E2656B7}
